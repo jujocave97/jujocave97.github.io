@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/nunito/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: Nunito-Bold;
+    src: url("../fonts/nunito/Nunito-Bold.ttf");
+}
+
+:root {
+    --azul_claro: #439ba7;
+    --azul_oscuro: #1C29FF;
+    --blanco: white;
+    --gris_claro: #C7C7C7;
+    --gris_oscuro: #666666;
+    --amarillo: #F0FB00;
+    --rojo: #FB0000;
+}
+
+
+/* General */
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Nunito;
+}
+
+/* Principal Container */
+
+#ppalContainer {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: var(--gris_claro);
+}
+
+header {
+    
+}
