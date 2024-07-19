@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Juan José Cabral</title>
@@ -36,10 +37,9 @@
                 </div>
                 <div id="tecnologies">
                     <h2>Tecnologias</h2>
-
-                    <div id="list">
+                    <div id="listBackend" class="divUList">
                         <h3>Backend</h3> <!-- poner imagenes en las tecnologias --> 
-                        <ul id="uList" class="unorderedList">
+                        <ul id="uListBackend" class="unorderedList">
                             <li> <img src="./img/backend/java.png" alt="java" /> </li>
                             <li> <img src="./img/backend/sql.png" alt="SQL" /> </li>
                             <li> <img src="./img/backend/kotlin.png" alt="kotlin" /> </li>
@@ -49,9 +49,9 @@
                         </ul>
                     </div>
 
-                    <div id="list" >
+                    <div id="listFrontend" class="divUList">
                         <h3>Frontend</h3> <!-- poner imagenes en las tecnologias --> 
-                        <ul id="uList" class="unorderedList">
+                        <ul id="uListFrontend" class="unorderedList">
                             <li> <img src="./img/frontend/html.png" alt="HTML" /> </li>
                             <li> <img src="./img/frontend/css.png" alt="CSS" /> </li>
                             <li> <img src="./img/frontend/js.png" alt="JavaScript" /> </li>
@@ -61,7 +61,44 @@
                 </div>
                 <div id="projects">
                     <h2>Proyectos</h2>
-                    <p>Lorem ipsum dolor</p>
+                    <div id="slider" class="slider">
+                        <div id="slides" class="slides">
+                            <div id="project1" class="slide">
+                                <div class="content">
+                                    <p>A</p>
+                                    <P>DESCRIPT</P>
+                                    <a href="https://github.com/jujocave97/ReadOfApiTeamSupport"> Migrar Datos de Api a Base de Datos</a>
+                                    <img src="#" alt="imagen">
+                                </div>
+                            </div>
+                            <div id="project2"  class="slide">
+                                <div class="content">
+                                    <p>B</p>
+                                    <P>DESCRIPT</P>
+                                    <a href="https://github.com/jujocave97/ReadOfApiTeamSupport"> Migrar Datos de Api a Base de Datos</a>
+                                    <img src="#" alt="imagen">
+                                </div>
+                            </div>
+                            <div id="project3"  class="slide">
+                                <div class="content">
+                                    <p>C</p>
+                                    <P>DESCRIPT</P>
+                                    <a href="https://github.com/jujocave97/ReadOfApiTeamSupport"> Migrar Datos de Api a Base de Datos</a>
+                                    <img src="#" alt="imagen">
+                                </div>
+                            </div>
+                            <div id="project4"  class="slide">
+                                <div class="content">
+                                    <p>D</p>
+                                    <P>DESCRIPT</P>
+                                    <a href="https://github.com/jujocave97/ReadOfApiTeamSupport"> Migrar Datos de Api a Base de Datos</a>
+                                    <img src="#" alt="imagen">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button onclick="prevSlide()">Anterior</button>
+                    <button onclick="nextSlide()">Siguiente</button>
                 </div>
                 <div id="formation">
                     <h2>Formación</h2>
@@ -72,5 +109,6 @@
                 <p>Lorem ipsum dolor</p>
             </footer>
         </div>
+        <script src="./javascript/javascript.js" ></script>
     </body>
 </html>
