@@ -93,6 +93,10 @@ nav ul li {
     text-decoration: none;
 }
 
+#menu a:hover {
+    color: var(--cream_red)
+}
+
 /* Main */
 #start{
     display: flex;
@@ -110,6 +114,9 @@ nav ul li {
     margin-left: 10%;
 }
 
+#name {
+    font-size: 2em;
+}
 /* Profile Image*/
 
 #start img{
@@ -186,6 +193,10 @@ nav ul li {
     border-radius: 10%;
 }
 
+.unorderedList img:hover {
+    transform: scale(1.1);
+}
+
 /* Projects */
 
 #projects {
@@ -250,6 +261,12 @@ nav ul li {
     border-radius: 1em;
     text-decoration: none;
     font-size: 1em;
+
+    padding: 5px 5px;
+}
+
+.slide a:hover {
+    background-color: var(--green);
 }
 
 /* Buttons */
@@ -269,6 +286,10 @@ button {
     background-color: var(--cream_red);
 }
 
+button:hover {
+    transform: scale(1.1);
+}
+
 /* Formation */
 
 #formation {
@@ -281,7 +302,8 @@ button {
 
 #formation p {
     font-size: 20px;
-    color: var(--midnight);
+    margin: .5em;
+    
 }
 
 #formation a {
@@ -291,6 +313,14 @@ button {
     border: 1px solid black;
     margin: 10px;
     padding: 10px 20px;
+}
+
+#cv {
+    margin-top: 2em;
+}
+
+#formation a:hover {
+    transform: scale(1.1);
 }
 
 /* Contact */
@@ -325,10 +355,14 @@ footer {
     height: 30px;
 }
 
+#contact a:hover {
+    transform: scale(1.1);
+}
+
 /* gradient properties */
 @keyframes hero-gradient-animation {
     0% {
-        --c-0: hsla(55.58823529411776, 0%, 100%, 0.86);
+        --c-0: hsla(0, 6%, 16%, 0.86);
         --s-start-0: 2%;
         --s-end-0: 78.72573401919361%;
         --x-0: 98%;
@@ -347,7 +381,7 @@ footer {
 @property --c-0 {
     syntax: '<color>';
     inherits: false;
-    initial-value: hsla(55.58823529411776, 0%, 100%, 0.86)
+    initial-value: hsla(0, 64%, 89%, 0.86)
 }
 
 @property --s-start-0 {
