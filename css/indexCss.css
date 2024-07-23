@@ -359,6 +359,77 @@ footer {
     transform: scale(1.1);
 }
 
+
+/* Responsive */ 
+@media screen and (max-width: 480px) {
+    *{
+        padding: 0;
+        margin-left: 0;
+        font-family: Nunito;
+        scroll-behavior: smooth;
+        color: white;
+    }
+
+    main {
+        width: 100%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #start {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #start img {
+        width: 75%;
+        margin-left: 38%;
+    }
+
+    #name {
+        font-size: 1em;
+        margin-right: -15%;
+    }
+
+    #aboutMe {
+        margin-right: -20%;
+    }
+
+    #tecnologies {
+        margin-right: -5%;
+    }
+
+    .unorderedList {
+        margin-right: -15%;
+    }
+
+    #uListFrontend img {
+        margin-right: 5%;
+    }
+
+    #projects {
+        margin-right: -9%;
+        height: 140%;
+        text-align: center;
+    }
+
+    #formation {
+        margin-right: -20%;
+    }
+
+    footer {
+        width: 125%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
 /* gradient properties */
 @keyframes hero-gradient-animation {
     0% {
