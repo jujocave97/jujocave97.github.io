@@ -414,9 +414,16 @@ footer {
 
     #projects {
         margin-right: -9%;
-        height: 140%;
+        max-height: none;
         text-align: center;
+        overflow: visible;
     }
+
+    #slider{
+        max-height: none;
+    }
+
+    
 
     #formation {
         margin-right: -20%;
