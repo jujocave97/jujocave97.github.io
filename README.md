@@ -1,2 +1,2 @@
-#Juan José Cabral
-## Portfolio and resume
+##Juan José Cabral
+### Portfolio and resume
